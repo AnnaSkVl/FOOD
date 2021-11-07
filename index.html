@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторан FP</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-utensils"></i> FP </a>
+    
+    <nav class="navbar">
+        <a href="#home">Домой</a>
+        <a href="#about">О ресторане</a>
+        <a href="#popular">Популярные</a>
+        <a href="#menu">Меню</a>
+        <a href="#order">Заказ</a>
+        <a href="#blogs">Блоги</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+    
+</header>
+
+<!-- header section ends  -->
+
+<!-- search-form  -->
+
+<section class="search-form-container">
+
+    <form action="">
+        <input type="search" name="" placeholder="Поиск здесь..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</section>
+
+<!-- shopping-cart section  -->
+
+<section class="shopping-cart-container">
+
+    <div class="products-container">
+
+        <h3 class="title">Ваши продукты</h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-1.png" alt="">
+                <div class="content">
+                    <h3>вкусная еда</h3>
+                    <span> количество : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> цена : </span>
+                    <span class="price"> 20.00 BYN</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-2.png" alt="">
+                <div class="content">
+                    <h3>вкусная еда</h3>
+                    <span> количество : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> цена : </span>
+                    <span class="price"> 25.00 BYN</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-3.png" alt="">
+                <div class="content">
+                    <h3>вкусная еда</h3>
+                    <span> количество : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> цена : </span>
+                    <span class="price"> 30.00 BYN</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-4.png" alt="">
+                <div class="content">
+                    <h3>вкусная еда</h3>
+                    <span> количество : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> цена : </span>
+                    <span class="price"> 20.00 BYN</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/menu-5.png" alt="">
+                <div class="content">
+                    <h3>вкусная еда</h3>
+                    <span> количество : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> цена : </span>
+                    <span class="price"> 33.00 </span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="cart-total">
+
+        <h3 class="title"> Итого </h3>
+
+        <div class="box">
+
+            <h3 class="subtotal"> предварительно : <span>200 BYN</span> </h3>
+            <h3 class="total"> итого : <span>200 BYN</span> </h3>
+
+            <a href="#" class="btn">перейти к оформлению заказа</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- login-form  -->
+
+<div class="login-form-container">
+
+    <form action="">
+        <h3>форма входа</h3>
+        <input type="email" name="" placeholder="введите ваш email" id="" class="box">
+        <input type="password" name="" placeholder="введите ваш пароль" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">запомнить меня</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>забыли пароль? <a href="#">нажать здесь</a></p>
+        <p>не имеете пароль? <a href="#">создать один</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span>welcome гурманы</span>
+        <h3>Предоставим с различными вкусами</h3>
+       
+        <a href="#" class="btn">заказать сейчас</a>
+    </div>
+
+    <div class="image">
+        <img src="image/home-img.png" alt="" class="home-img">
+    </div>
+
+</section>
+
+<!-- home section ends  -->
+
+<!-- category section   -->
+
+<section class="category">
+
+    <a href="#" class="box">
+        <img src="image/cat-1.png" alt="">
+        <h3>комбо</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-2.png" alt="">
+        <h3>пицца</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-3.png" alt="">
+        <h3>бюргер</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-4.png" alt="">
+        <h3>курица</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-5.png" alt="">
+        <h3>обед</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-6.png" alt="">
+        <h3>кофе</h3>
+    </a>
+
+</section>
+
+<!-- category section ends -->
+
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="image/about-img.png" alt="">
+    </div>
+
+    <div class="content">
+        <span>Почему Вы должны выбрать нас?</span>
+        <h3 class="title">Что делает нашу еду привлекательной!</h3>
+        <a href="#" class="btn">читать больше</a>
+        <div class="icons-container">
+            <div class="icons">
+                <img src="image/serv-1.png" alt="">
+                <h3>быстрая доставка</h3>
+            </div>  
+            <div class="icons">
+                <img src="image/serv-2.png" alt="">
+                <h3>свежая еда</h3>
+            </div>   
+            <div class="icons">
+                <img src="image/serv-3.png" alt="">
+                <h3>лучшее качество</h3>
+            </div>  
+            <div class="icons">
+                <img src="image/serv-4.png" alt="">
+                <h3>24/7 поддержка</h3>
+            </div>           
+        </div>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+    <div class="heading">
+        <span>Популярная еда</span>
+        <h3>Наши специальные блюда</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (25) </span>
+                </div>
+                <div class="price">20.00 BYN<span>40.00 BYN</span></div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (25) </span>
+                </div>
+                <div class="price">20.00 BYN<span>40.00 BYN</span></div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (25) </span>
+                </div>
+                <div class="price">20.00 BYN<span>40.00 BYN</span></div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-4.png" alt="">
+            </div>
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (25) </span>
+                </div>
+                <div class="price">20.00 BYN<span>40.00 BYN</span></div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-5.png" alt="">
+            </div>
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (25) </span>
+                </div>
+                <div class="price">20.00 BYN<span>40.00 BYN</span></div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-6.png" alt="">
+            </div>
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (25) </span>
+                </div>
+                <div class="price">20.00 BYN<span>40.00 BYN</span></div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-7.png" alt="">
+            </div>
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">20.00 BYN<span>40.00 BYN</span></div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-8.png" alt="">
+            </div>
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (25) </span>
+                </div>
+                <div class="price">20.00 BYN<span>40.00 BYN</span></div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+<!-- banner section starts  -->
+
+<section class="banner">
+
+    <div class="row-banner">
+        <div class="content">
+            <h3>бюргер</h3>
+            <a href="#" class="btn">заказать сейчас</a>
+        </div>
+    </div>
+
+    <div class="grid-banner">
+        <div class="grid">
+            <img src="image/banner-1.png" alt="">
+            <div class="content">
+                <span>специальное предложение</span>
+                <h3>до 50% скидки</h3>
+                <a href="#" class="btn">заказать сейчас</a>
+            </div>
+        </div>
+        <div class="grid">        
+            <img src="image/banner-3.png" alt="">
+            <div class="content">
+                <span>лимитированное предложение</span>
+                <h3>100% cashback</h3>
+                <a href="#" class="btn">заказать сейчас</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <div class="heading">
+        <span>наше меню</span>
+        <h3>наши топ-блюда</h3>
+    </div>
+
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img src="image/menu-1.png" alt="">
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="price">20.00 BYN</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-2.png" alt="">
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="price">40.00 BYN</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-3.png" alt="">
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="price">35.00 BYN</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-4.png" alt="">
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="price">30.00 BYN</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-5.png" alt="">
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="price">20.00 BYN</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-6.png" alt="">
+            <div class="content">
+                <h3>вкусная еда</h3>
+                <div class="price">40.00 BYN</div>
+            </div>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <div class="heading">
+        <span>заказать сейчас</span>
+        <h3>самая быстрая доставка домой</h3>
+    </div>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <img src="image/icon-1.png" alt="">
+            <h3>с 7:00 дo 10:30</h3>
+        </div>
+
+        <div class="icons">
+            <img src="image/icon-2.png" alt="">
+            <h3>+375-29-525-7890</h3>
+        </div>
+
+        <div class="icons">
+            <img src="image/icon-3.png" alt="">
+            <h3>Минск, РБ</h3>
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>Ваше имя</span>
+                <input type="text" placeholder="имя покупателя" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>Ваш номер</span>
+                <input type="number" placeholder="номер покупателя" name="" id="">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>Ваш заказ</span>
+                <input type="text" placeholder="выбранная еда" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>Количество</span>
+                <input type="number" placeholder="номер заказа" name="" id="">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>Детали заказа</span>
+                <input type="text" placeholder="ваше сообщение" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>время доставки</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <textarea placeholder="your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="inputBox">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75217.55273876833!2d27.51307672883651!3d53.90422807088312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd1c1102257%3A0x11d8967c5a8e7ada!2sKAPARA!5e0!3m2!1sru!2sby!4v1636219310271!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <input type="submit" value="приступить к выполнению заказа" class="btn">
+
+    </form>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <span>Наши блоги</span>
+        <h3>Наши ежедневные истории</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 18 октября, 2021 </h3>
+                <img src="image/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> сандвич / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> бюргер / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> пицца  </a>
+                </div>
+                <h3>Это оригинальный сэндвич?</h3>
+                <p>Гамбургеры ассоцируются с США, где в современные дни в любом меню встречаются какая-нибудь из версий гамбургеров в почти каждом ресторане. </p>
+                <a href="#" class="btn">читать больше</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 21 октября, 2021 </h3>
+                <img src="image/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> сандвич / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> бюргер / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> пицца  </a>
+                </div>
+                <h3>Что такое сэндвич?</h3>
+                <p>По поводу возникновения сандвича можно говорить о том, что сэндвич - это бутерброд, состоящий из двух ломтиков хлеба и закуски между ними, существуют разные версии.</p>
+                <a href="#" class="btn">читать больше</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> 04 ноября, 2021 </h3>
+                <img src="image/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> сандвич / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> бюргер / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> пицца  </a>
+                </div>
+                <h3>Быстрая пицца на сковороде</h3>
+                <p>Пицца на сковороде – отличный вариант быстрого и вкусного блюда. В рецепте указаны все действия для приготовления быстрой пиццы двумя способами.</p>
+                <a href="#" class="btn">читать больше</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="newsletter">
+        <h3>Новое письмо</h3>
+        <form action="">
+            <input type="email" name="" placeholder="введите ваш электронный адрес" id="">
+            <input type="submit" value="подписаться">
+        </form>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>наше меню</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> пицца</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> бюргер</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> курица</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> паста</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> и больше...</a>
+        </div>
+
+        <div class="box">
+            <h3>быстрые ссылки</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> домой</a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> о ресторане</a>
+            <a href="#popular"> <i class="fas fa-arrow-right"></i> популярные</a>
+            <a href="#menu"> <i class="fas fa-arrow-right"></i> меню</a>
+            <a href="#order"> <i class="fas fa-arrow-right"></i> заказ</a>
+            <a href="#blogs"> <i class="fas fa-arrow-right"></i> блоги</a>
+        </div>
+
+
+        <div class="box">
+            <h3>часы открытия</h3>
+            <p>понедельник : 7:00  22:00</p>
+            <p>вторник : 7:00 22:00</p>
+            <p>среда : 7:00 22:00</p>
+            <p>четверг : 7:00 22:00</p>
+            <p>пятница : 7:00 22:00</p>
+            <p>суббота и воскресенье закрыты</p>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
